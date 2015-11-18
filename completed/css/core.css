@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;	
+}
+body {
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 12px;
+	color: #333;
+	line-height: 21px;
+	text-align: center;
+	padding: 30px 0;
+}
+ul,ul li,ul li input,ul li label {
+	float: left;
+}
+ul {
+	list-style: none;
+	width: 100%;
+}
+ul li {
+	padding: 3px 20px 3px 0;
+}
+ul li input {
+	margin-right: 5px;
+	margin-top: 3px;
+}
+#wrapper {
+	text-align: left;
+	width: 600px;
+	margin: 0 auto;
+}
+.field {
+	padding: 5px;
+	border: solid 1px #aaa;	
+}
+#button {
+	padding: 5px 15px;
+	background: #eee;
+	border: solid 1px #aaa;
+	cursor: pointer;
+}
+th {
+	padding: 3px 10px 3px 0;
+}
+td {
+	padding: 3px;
+}
